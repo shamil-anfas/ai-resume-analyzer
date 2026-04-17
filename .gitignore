@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.sqlite3
+*.log
+debug.log
+check_models.py
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build / Misc
+coverage/
+*.coverage
