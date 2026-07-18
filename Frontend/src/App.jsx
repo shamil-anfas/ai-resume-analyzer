@@ -72,7 +72,12 @@ function App() {
               value={jobDescription}
               onChange={(e) => setJobDescription(e.target.value)}
               placeholder="Paste job description here..."
-              className="w-full min-h-[200px] p-4 rounded-xl border bg-card/50 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-y"
+              className="w-full min-h-[200px] p-4 rounded-xl border focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-y"
+              style={{
+                backgroundColor: 'hsl(var(--card))',
+                color: 'hsl(var(--foreground))',
+                borderColor: 'hsl(var(--border))',
+              }}
             />
           </div>
 
