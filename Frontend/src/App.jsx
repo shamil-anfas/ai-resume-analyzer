@@ -27,7 +27,8 @@ function App() {
     formData.append('job_description', jobDescription);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/analyze', formData, {
+      const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+      const response = await axios.post(`${API_BASE_URL}/api/analyze`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
 
