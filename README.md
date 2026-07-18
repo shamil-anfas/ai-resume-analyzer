@@ -2,6 +2,12 @@
 
 A high-performance web application that uses **Large Language Models (Llama 3.3 via Groq)** to analyze resumes against job descriptions. It provides a real-time ATS score, keyword matching, and actionable improvement suggestions.
 
+## 🚀 Live Demo
+
+**Try the application:** https://ai-resume-analyzer-olive-kappa.vercel.app/
+
+> Note: The backend is hosted on Render's free tier, so the first request may take longer while the server starts.
+
 ## ✨ Features
 
 - **ATS Scoring**: Get an instant compatibility score (0-100).
